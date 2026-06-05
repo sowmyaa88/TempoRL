@@ -1,4 +1,4 @@
-# HorizonEnv
+# TempoRL
 
 **A benchmark environment for evaluating long-horizon planning, memory persistence, and constraint reasoning in large language models.**
 
