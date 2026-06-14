@@ -55,8 +55,6 @@ model, tokenizer = FastLanguageModel.from_pretrained(
     model_name=MODEL_NAME,
     max_seq_length=MAX_SEQ_LENGTH,
     load_in_4bit=True,
-    fast_inference=True,         # vLLM-backed generation for GRPO rollouts
-    gpu_memory_utilization=0.6,  # leave room for training activations
 )
 
 model = FastLanguageModel.get_peft_model(
